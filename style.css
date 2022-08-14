@@ -10,6 +10,7 @@
   background: url(/images/giphy.gif);
   /* background-repeat: no-repeat; */
   background-size: cover;
+  /* background: linear-gradient(#a2d2ff 100%, #EFB0C9); */
 }
 
 nav {
@@ -43,6 +44,7 @@ nav ul li a {
 nav ul li a:hover {
   color: #f9004d;
   transition: 0.4s;
+  
 }
 .btn {
   background-color: #f9004d;
@@ -160,6 +162,10 @@ button:hover {
   border: 2px solid #f9004d;
   cursor: pointer;
 }
+.resume{
+  text-decoration: none;
+  color: white;
+}
 .service {
   background: #fff;
   width: 100%;
@@ -221,7 +227,7 @@ h5 {
   background-color: #f9004d;
   color: white;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
@@ -313,4 +319,12 @@ footer p:nth-child(2) {
   color: #f9004d;
   bottom: 35px;
   font-size: 14px;
+}
+
+
+.nav-item:hover{
+  /* text-decoration: underline; */
+  border-bottom: 3px solid blue;
+  padding-bottom: 4px;
+  border-radius: 3px 3px ;
 }
