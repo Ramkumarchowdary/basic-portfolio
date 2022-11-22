@@ -21,6 +21,16 @@ nav {
   padding-left: 8px;
   padding-right: 8px;
 }
+.nav-section {
+  position: fixed;
+  background: #000;
+  width: 100%;
+  position: fixed;
+  background: #000;
+  z-index: 10;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
 .logo {
   color: white;
   font-size: 35px;
