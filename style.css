@@ -338,7 +338,7 @@ footer p:nth-child(2) {
   padding-bottom: 4px;
   border-radius: 3px 3px ;
 }
-.icon {
+/* .icon {
   color: red;
   size: 6px;
 }
@@ -353,4 +353,4 @@ footer p:nth-child(2) {
 
 .card:hover {
   transform: scale(1.1);
-}
+} */
